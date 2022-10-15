@@ -1,2 +1,2 @@
 # Leetcode
-I post my own solutions of Data Structure and Algorithm problems in this repository. 
+I post my own solutions of Data Structure and Algorithm coding problems in this repository. 
