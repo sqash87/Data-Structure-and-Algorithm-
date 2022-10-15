@@ -1,5 +1,25 @@
 
-#1 Rotate the matrix 90 degree clock wise(in place)
+
+#1: Write an algorithm that will eliminate duplicated value in the list without changing the order.
+
+from array import array
+import string
+from turtle import right
+
+list1= [5,9,10,4,3,8,9,5,20,5,3,10,8,9,3,45,3,78,3]
+length = len(list1)
+index=0
+
+while index<len(list1):    
+    if list1.count(list1[index])>1:
+        list1.remove(list1[index])
+    index=index+1
+
+print(list1)  
+
+
+
+#2 Rotate the matrix 90 degree clock wise(in place)
 # Step 1: Find the Transpose of the matrix
 # Step 2: Horizontal reflection
 
@@ -73,7 +93,7 @@ def Rote_Matrix(matrix):
 Rote_Matrix(Matrix)
                                                 #*************
 
-#2: if an element of a matrix is 0, set the row and column of that element 0.
+#3: if an element of a matrix is 0, set the row and column of that element 0.
 Matrix=[[1,2,0,4],[5,6,7,8],[9,0,11,12]]
 def Find_Zero(matrix):
     cor1=0
